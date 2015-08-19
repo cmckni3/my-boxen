@@ -1,0 +1,2 @@
+---
+dnsmasq::tld: "%{::boxen_user}.dev"

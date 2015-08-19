@@ -1,0 +1,41 @@
+---
+# rbenv plugins
+"ruby::rbenv::plugins":
+  "rbenv-binstubs":
+    "ensure": "v1.4"
+    "source": "ianheggie/rbenv-binstubs"
+  "rbenv-ctags":
+    "ensure": "v1.0.1"
+    "source": "tpope/rbenv-ctags"
+  "rbenv-gem-rehash":
+    "ensure": "v1.0.0"
+    "source": "sstephenson/rbenv-gem-rehash"
+  "rbenv-gemset":
+    "ensure": "v0.2.1"
+    "source": "sstephenson/rbenv-gemset"
+
+boxen::personal::homebrew_packages:
+  - ctags
+  - coreutils
+  - git-extras
+  - gnu-sed
+  - htop
+  - ssh-copy-id
+  - tmux
+  - tree
+  - wget
+
+boxen::personal::osx_apps:
+  - alfred
+  - dash
+  - dockertoolbox
+  - firefox
+  - google-chrome
+  - google-chrome-canary
+  - iterm2
+  - postbox
+  - spotify
+  - sourcetree
+  - sublime-text3
+  - the-unarchiver
+  - yemuzip
